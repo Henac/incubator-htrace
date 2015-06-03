@@ -149,6 +149,12 @@ language governing permissions and limitations under the License. -->
       </exclusions> 
     </dependency>
     <dependency>
+		<groupId>org.apache.accumulo</groupId>
+		<artifactId>accumulo</artifactId>
+		<version>1.7.0</version>
+		<type>pom</type>
+	</dependency>
+    <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-testing-util</artifactId>
       <version>${hbase.version}</version>
